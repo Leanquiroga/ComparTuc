@@ -10,7 +10,7 @@ import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Carrousel />
+    
   </React.StrictMode>
 );
 
