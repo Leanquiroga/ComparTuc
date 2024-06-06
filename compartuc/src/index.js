@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import { Boton } from './componentes/botones';
+import { Boton, BotonRounded } from './componentes/botones';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+    <Boton textoBoton="holas" color="success" />
   </React.StrictMode>
 );
 
