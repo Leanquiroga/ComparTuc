@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Scrollbar } from 'swiper/modules';
+import { Scrollbar, Autoplay } from 'swiper/modules';
 import './styleCarrousel.css';
 
-export function Carrousel() {
+export function Carrousel({ imagen1, imagen2, imagen3, imagen4 }) {
     return (
         <>
             <Swiper
@@ -12,18 +12,25 @@ export function Carrousel() {
                 scrollbar={{
                     hide: true,
                 }}
-                modules={[Scrollbar]}
-                className="mySwiper"
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                modules={[Scrollbar, Autoplay]}
+                className="mySwiper carrousel"
             >
                 <SwiperSlide>
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSXizXXqCzls5RFMeHTL0OAYHhexjSHgljsjqkxmtJbEmrrBZIXqElnTCDhWxFxovWr2qvzoc3BTcPSdAI-QZ9m2jT0Apcw3n9CKqF3XQ" alt="" />
+                    <img src={imagen1} alt="imagencarrousel" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg?wp=1&w=170&h=170" alt="" />
+                    <img src={imagen2} alt="imagencarrousel" />
                 </SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-
+                <SwiperSlide>
+                    <img src={imagen3} alt="imagencarrousel" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={imagen4} alt="imagencarrousel" />
+                </SwiperSlide>
             </Swiper>
         </>
     );
