@@ -6,14 +6,16 @@ import { Boton, BotonRounded, BotonOutline, BotonOutlineRounded } from './compon
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 import { Carrousel } from './componentes/carrousel/carrousel.jsx';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+    <CarrouselProd />
   </React.StrictMode>
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
