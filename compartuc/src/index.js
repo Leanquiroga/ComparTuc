@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import { Boton, BotonRounded , BotonOutline, BotonOutlineRounded} from './componentes/botones/botones';
+import { Boton, BotonRounded, BotonOutline, BotonOutlineRounded } from './componentes/botones/botones';
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+    <Carrousel />
   </React.StrictMode>
 );
 
