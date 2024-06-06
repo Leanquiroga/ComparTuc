@@ -39,3 +39,6 @@
     object-fit: cover;
   }
   
+  .carrouselProd{
+    height: 300px;
+  }
