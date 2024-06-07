@@ -9,18 +9,19 @@ export function CarrouselProd() {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={15}
+                loop={true}
                 navigation={true}
                 breakpoints={{
                     '@0.00': {
-                        slidesPerView: 1,
-                        spaceBetween: 10,
-                    },
-                    '@0.75': {
                         slidesPerView: 2,
                         spaceBetween: 10,
                     },
-                    '@1.00': {
+                    '@0.75': {
                         slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                    '@1.00': {
+                        slidesPerView: 4,
                         spaceBetween: 10,
                     },
                     '@1.50': {
