@@ -1,0 +1,31 @@
+.cardProducto{
+    width: max-content;
+}
+
+.seccionImagenProducto{
+    position: relative;
+    margin-top: 100px;
+}
+
+.imagenProducto{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.descuentoProducto{
+    width: max-content;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(240, 42, 35);
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+
+.seccionPrecio{
+    display: flex;
+}
