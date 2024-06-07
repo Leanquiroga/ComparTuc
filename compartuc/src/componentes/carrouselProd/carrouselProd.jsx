@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './styleCarrouselProd.css';
 import { Navigation } from 'swiper/modules';
+import { CardProducto } from '../cardProducto/cardProducto';
 
 export function CarrouselProd() {
     return (
@@ -32,7 +33,7 @@ export function CarrouselProd() {
                 modules={[Navigation]}
                 className="mySwiper carrouselProd"
             >
-                <SwiperSlide>Slide 1</SwiperSlide>
+                <CardProducto nombre="Zapatillas NIKE" precio={100000} descuento={20} />
                 <SwiperSlide>Slide 2</SwiperSlide>
                 <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>

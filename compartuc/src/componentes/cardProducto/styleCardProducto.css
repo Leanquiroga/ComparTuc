@@ -6,7 +6,6 @@
 
 .seccionImagenProducto{
     position: relative;
-    margin-top: 100px;
 }
 
 .imagenProducto{
@@ -30,4 +29,8 @@
 
 .seccionPrecio{
     display: flex;
+}
+
+.imagenProducto:hover{
+    
 }

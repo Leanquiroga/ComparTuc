@@ -5,7 +5,7 @@ export function CardProducto({nombre, precio, descuento}) {
     precioDescuento = precio -(precio*descuento/100);
     return (
 
-        <div className="cardProducto mt-3 mx-5 shadow-4-strong">
+        <div className="cardProducto shadow-4-strong">
             <div className="seccionImagenProducto">
                 <img
                     src="https://spikeprague.cz/cdn/shop/products/b50b297589f79ceafe62e900e7b3e7e4_700x700.webp?v=1691493814"
