@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.text-muted {
+    color: hsl(217, 10%, 50.8%);
+}
+
+.social-btn {
+    color: #f44336;
+}
+
+.custom-text{
+    color: #f44336;
+}
+
