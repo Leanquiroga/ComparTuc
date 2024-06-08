@@ -1,9 +1,9 @@
-import { MDBIcon } from 'mdb-react-ui-kit';
+import { MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import './styleCardProducto.css'
 
 export function CardProducto({ nombre, precio, descuento }) {
-    let precioDescuento = 0;
-    precioDescuento = precio - (precio * descuento / 100);
+    let precioConDescuento = 0;
+    precioConDescuento = precio - (precio * descuento / 100);
     return (
 
         <div className="cardProducto shadow-4-strong">
@@ -15,12 +15,21 @@ export function CardProducto({ nombre, precio, descuento }) {
                 />
                 <h5 className='descuentoProducto px-3 shadow-4-strong'>- {descuento}%</h5>
             </div>
-            <div className='descripcionProducto m-3'>
+            <div className='descripcionProducto'>
                 <h5 className='mt-3 text-dark'><b>{nombre}</b></h5>
-                <div className="seccionPrecio mt-3">
-                    <h5><del>${precio}</del></h5>
-                    <h4 className="mb-3"><b>${precioDescuento}</b></h4>
-                    <MDBIcon fas icon='star' className='icono' size='lg'/>
+                <div className="precioEstrellas">
+                    <div className="seccionPrecio mt-2">
+                        <h5><del>${precio}</del></h5>
+                        <h4 className="mb-3"><b>${precioConDescuento}</b></h4>
+                    </div>
+                    <div className="estrellasContenedor ms-5 mt-2">
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        {/* <h6>(10)</h6> */}
+                    </div>
                 </div>
             </div>
         </div>

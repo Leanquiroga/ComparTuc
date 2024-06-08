@@ -1,21 +1,31 @@
 .cardProducto {
     width: max-content;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 5px;
 
-    /* borrar al finalizr */
+    /* borrar al finalizar */
     margin-top: 100px;
     margin-left: 100px;
 }
 
 .seccionImagenProducto {
     position: relative;
+    overflow: hidden;
+}
+
+.descripcionProducto{
+    margin-left:15px ;
 }
 
 .imagenProducto {
     width: 300px;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
+    transition: transform 0.25s ease-in-out;
+}
+
+.imagenProducto:hover {
+    transform: scale(1.12);
 }
 
 .descuentoProducto {
@@ -44,10 +54,17 @@
 
 .seccionPrecio h5 {
     color: #9f9595;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
 }
 
+.estrella{
+    color: rgb(241, 193, 20);
+    margin-right:3px ;
+}
 
-/* .imagenProducto:hover{
-} */
+.precioEstrellas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

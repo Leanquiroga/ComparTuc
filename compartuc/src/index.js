@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Boton, BotonRounded, BotonOutline, BotonOutlineRounded } from './componentes/botones/botones';
 import 'swiper/css';
 import 'swiper/css/scrollbar';
