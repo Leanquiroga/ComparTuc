@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Boton, BotonRounded, BotonOutline, BotonOutlineRounded } from './componentes/botones/botones';
 import 'swiper/css';
 import 'swiper/css/scrollbar';
@@ -9,12 +10,12 @@ import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
-import { CardProducto	 } from './componentes/cardProducto/cardProducto.jsx';
+import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+
   </React.StrictMode>
 );
 
