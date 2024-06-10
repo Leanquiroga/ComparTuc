@@ -17,9 +17,7 @@ import Login from './componentes/login/login.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Signup/>
-    <Login/>
-    
+
   </React.StrictMode>
 );
 
