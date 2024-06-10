@@ -7,17 +7,17 @@ import {
   MDBCard,
   MDBCardBody,
   MDBInput,
-  MDBCheckbox,
+  MDBTypography,
   MDBIcon
 } from 'mdb-react-ui-kit';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Importa el CSS de FontAwesome
-import './App.css'; // Importa el archivo CSS
+import '../signup/stylesSignup.css'; // Importa el archivo CSS
 
 const CustomInput = ({ label, type, id }) => (
   <MDBInput wrapperClass='mb-4' label={label} id={id} type={type} />
 );
 
-function App2() {
+function Signup() {
   return (
     <MDBContainer fluid className='p-4'>
 
@@ -26,15 +26,13 @@ function App2() {
         <MDBCol md='6' className='text-center text-md-start d-flex flex-column justify-content-center'>
 
           <h1 className="my-5 display-3 fw-bold ls-tight px-3">
-            The best offer <br />
-            <span className="text-primary">for your business</span>
+          Las mejores ofertas<br />
+            <span className="text-custom-color" >para tus ahorros</span>
           </h1>
 
           <p className='px-3 text-muted'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-            quibusdam tempora at cupiditate quis eum maiores libero
-            veritatis? Dicta facilis sint aliquid ipsum atque?
+          Descubre oportunidades increíbles para ahorrar dinero en tus compras diarias.
+          Con nuestro comparador, encontrarás las mejores ofertas adaptadas a tus necesidades y preferencias.
           </p>
 
         </MDBCol>
@@ -44,16 +42,25 @@ function App2() {
           <MDBCard className='my-5'>
             <MDBCardBody className='p-5'>
 
+              <MDBRow>
+                <MDBCol col='6'>
+                  <CustomInput label='Nombres' id='formFirstName' type='text' />
+                </MDBCol>
+
+                <MDBCol col='6'>
+                  <CustomInput label='Apellidos' id='formLastName' type='text' />
+                </MDBCol>
+              </MDBRow>
+
               <CustomInput label='Email' id='formEmail' type='email' />
-              <CustomInput label='Password' id='formPassword' type='password' />
+              <CustomInput label='Contraseña' id='formPassword' type='password' />
 
-              
+              <MDBBtn className='w-100 mb-4' size='md' style={{ backgroundColor: '#15b1e5' }}>Registrate</MDBBtn>
 
-              <MDBBtn className='w-100 mb-4' size='md' style={{ backgroundColor: '#f44336' }} >Log In</MDBBtn>
 
               <div className="text-center">
 
-                <p>or log in with:</p>
+                <p>o registrate con:</p>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
                   <MDBIcon fab icon='facebook-f' size="sm"/>
@@ -67,7 +74,12 @@ function App2() {
                   <MDBIcon fab icon='google' size="sm"/>
                 </MDBBtn>
 
+
+                <MDBTypography tag='p'>¿Ya tienes una cuenta? <MDBBtn color='none' tag='a' href='#'>Iniciar sesion</MDBBtn></MDBTypography>
+
+
               </div>
+
 
             </MDBCardBody>
           </MDBCard>
@@ -80,4 +92,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default Signup;
