@@ -1,3 +1,4 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
@@ -10,6 +11,9 @@ import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
+import { CardProducto	 } from './componentes/cardProducto/cardProducto.jsx';
+import Signup from './componentes/signup/signup.js';
+import Login from './componentes/login/login.js';
 import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
