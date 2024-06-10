@@ -10,12 +10,12 @@ import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
-import { CardProducto	 } from './componentes/cardProducto/cardProducto.jsx';
+import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardProducto nombre="Zapatillas NIKE" precio="100000" descuento="20"/>
+
   </React.StrictMode>
 );
 

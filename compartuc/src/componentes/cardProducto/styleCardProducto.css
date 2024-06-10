@@ -2,10 +2,6 @@
     width: max-content;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-
-    /* borrar al finalizar */
-    margin-top: 100px;
-    margin-left: 100px;
 }
 
 .seccionImagenProducto {
@@ -13,8 +9,8 @@
     overflow: hidden;
 }
 
-.descripcionProducto{
-    margin-left:15px ;
+.descripcionProducto {
+    margin-left: 15px;
 }
 
 .imagenProducto {
@@ -26,6 +22,7 @@
 
 .imagenProducto:hover {
     transform: scale(1.12);
+    border-radius: 5px 5px 0px 0px;
 }
 
 .descuentoProducto {
@@ -58,12 +55,12 @@
     margin: 0px;
 }
 
-.estrella{
+.estrella {
     color: rgb(241, 193, 20);
-    margin-right:3px ;
+    margin-right: 3px;
 }
 
-.precioEstrellas{
+.precioEstrellas {
     display: flex;
     flex-direction: row;
     align-items: center;

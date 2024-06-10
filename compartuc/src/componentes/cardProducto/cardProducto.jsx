@@ -1,7 +1,7 @@
 import { MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import './styleCardProducto.css'
 
-export function CardProducto({ nombre, precio, descuento }) {
+export function CardProducto({ nombre, precio, descuento, imagen }) {
     let precioConDescuento = 0;
     precioConDescuento = precio - (precio * descuento / 100);
     return (
@@ -9,8 +9,8 @@ export function CardProducto({ nombre, precio, descuento }) {
         <div className="cardProducto shadow-4-strong">
             <div className="seccionImagenProducto">
                 <img
-                    src="https://spikeprague.cz/cdn/shop/products/b50b297589f79ceafe62e900e7b3e7e4_700x700.webp?v=1691493814"
-                    alt=""
+                    src={imagen}
+                    alt="zapatilla imagen"
                     className='imagenProducto'
                 />
                 <h5 className='descuentoProducto px-3 shadow-4-strong'>- {descuento}%</h5>
