@@ -14,12 +14,11 @@ import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
 import { CardProducto	 } from './componentes/cardProducto/cardProducto.jsx';
 import Signup from './componentes/signup/signup.js';
 import Login from './componentes/login/login.js';
-import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+    <Login />
   </React.StrictMode>
 );
 
