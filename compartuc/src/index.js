@@ -11,14 +11,15 @@ import { Carrousel } from './componentes/carrousel/carrousel.jsx';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
-import { CardProducto	 } from './componentes/cardProducto/cardProducto.jsx';
+import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 import Signup from './componentes/signup/signup.js';
 import Login from './componentes/login/login.js';
+import { Footer } from './componentes/footer/footer.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <Footer />
   </React.StrictMode>
 );
 

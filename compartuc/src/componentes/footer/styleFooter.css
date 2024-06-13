@@ -1,0 +1,18 @@
+.footer {
+    background-color: #0a3347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.botonesfooter {
+    margin: 500px;
+}
+
+.contenedorFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 6.5%;
+}
