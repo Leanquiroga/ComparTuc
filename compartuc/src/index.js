@@ -15,11 +15,12 @@ import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
 import Signup from './componentes/signup/signup.js';
 import Login from './componentes/login/login.js';
 import { Footer } from './componentes/footer/footer.jsx'
+import Navbar from './componentes/navbar/navbar.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Footer />
+    <Navbar />
   </React.StrictMode>
 );
 
