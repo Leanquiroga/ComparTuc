@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styleNavbar.css';
 import {
   MDBContainer,
   MDBNavbar,
@@ -8,8 +9,10 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBCollapse,
-  MDBIcon
+  MDBIcon,
+  MDBInput
 } from 'mdb-react-ui-kit';
+
 
 export default function Navbar() {
   const [openNav, setOpenNav] = useState(false);
@@ -17,7 +20,10 @@ export default function Navbar() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href='#'>
+          <img src={require("../../images/icono.jpg")} alt="" className='iconoLogo' />
+          ComparTuc
+        </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
@@ -27,28 +33,42 @@ export default function Navbar() {
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
         <MDBCollapse navbar open={openNav}>
-          <MDBNavbarNav>
-            
+          <MDBNavbarNav id='navbar'>
+            <div className="seccionNavegacion">
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-3 textoNavbar">
+                  Inicio
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-3 textoNavbar">
+                  Contacto
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-3 textoNavbar">
+                  Nosotros
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+            </div>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Inicio
-              </MDBNavbarLink>
+              <MDBInput label="Busca Productos" contrast  labelStyle={{color: 'grey'}}  type="text" className='textoInputNavbar pe-5 mt-1'>
+                <i className="fas fa-arrow-circle-right trailing px-2"></i>
+              </MDBInput>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+
             </MDBNavbarItem>
 
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page' href='#'>
-                Contacto
+                <MDBIcon far icon="user" className='mx-3'size="lg"/>
               </MDBNavbarLink>
             </MDBNavbarItem>
 
-            <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Nosotros
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-
-            <MDBNavbarItem>
-            </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
