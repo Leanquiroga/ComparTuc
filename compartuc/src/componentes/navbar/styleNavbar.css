@@ -1,5 +1,5 @@
 .iconoLogo{
-    margin-left: 100px;
+    margin-left: 40px;
     width: 5rem;
     height: 2,5rem;
 }
@@ -7,12 +7,19 @@
 .seccionNavegacion{
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 160px;
+}
+
+
+.seccionInput{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
 }
 
 .textoNavbar{
     letter-spacing: 2px;
+    padding: 10px 2px 0px !important;
 }
 
 .textoNavbar:hover{
@@ -21,6 +28,56 @@
 
 .textoInputNavbar{
     color: rgb(85, 85, 85) !important;
-    background-color: rgb(215, 215, 215) !important;
+    background-color: rgb(235, 235, 235) !important;
     border: solid 0px  black !important;
 }
+
+.borderBtn{
+    border-bottom: 2px solid #81d9f8;
+}
+
+.navbar{
+    border-bottom: 2px solid #d8e2e6;
+}
+
+@media screen and (max-width:1360px){
+    .seccionNavegacion {
+        margin-left: 100px;
+    }
+    .seccionInput {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .seccionNavegacion {
+        margin-left: 30px;
+    }
+    .seccionInput {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:1090px){
+    .seccionNavegacion {
+        margin-left: 0px;
+    }
+    .seccionInput {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .seccionNavegacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccionInput {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
