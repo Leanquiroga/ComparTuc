@@ -16,6 +16,7 @@ import Signup from './componentes/signup/signup.js';
 import Login from './componentes/login/login.js';
 import { Footer } from './componentes/footer/footer.jsx'
 import { Navbar, NavbarContacto, NavbarNosotros, NavbarMiCuenta } from './componentes/navbar/navbar.jsx'
+import { Header } from './componentes/header/header.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
