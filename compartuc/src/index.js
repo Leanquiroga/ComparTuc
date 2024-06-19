@@ -21,7 +21,7 @@ import { Header } from './componentes/header/header.jsx'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
+    <Header />
   </React.StrictMode>
 );
 
