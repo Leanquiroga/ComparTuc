@@ -13,7 +13,7 @@ export function Carrousel({ imagen1, imagen2, imagen3, imagen4 }) {
                     hide: true,
                 }}
                 autoplay={{
-                    delay: 3000,
+                    delay: 4000,
                     disableOnInteraction: false,
                   }}
                 modules={[Scrollbar, Autoplay]}

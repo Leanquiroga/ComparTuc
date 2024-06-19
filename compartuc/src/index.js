@@ -17,11 +17,12 @@ import Login from './componentes/login/login.js';
 import { Footer } from './componentes/footer/footer.jsx'
 import { Navbar, NavbarContacto, NavbarNosotros, NavbarMiCuenta } from './componentes/navbar/navbar.jsx'
 import { Header } from './componentes/header/header.jsx'
+import { IndexPages } from './pages/index/indexPages.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+    <IndexPages />
   </React.StrictMode>
 );
 
