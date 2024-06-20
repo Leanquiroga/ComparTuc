@@ -4,7 +4,7 @@ import './styleCarrouselProd.css';
 import { Navigation } from 'swiper/modules';
 import { CardProducto } from '../cardProducto/cardProducto';
 
-export function CarrouselProd() {
+export function CarrouselProd({ prod1, prod2, prod3, prod4, prod5, prod6, prod7, prod8 }) {
     return (
         <>
             <Swiper
@@ -33,15 +33,14 @@ export function CarrouselProd() {
                 modules={[Navigation]}
                 className="mySwiper carrouselProd"
             >
-                <CardProducto nombre="Zapatillas NIKE" precio={100000} descuento={20} />
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod1}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod3}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod2}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod4}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod5}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod6}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod7}</SwiperSlide>
+                <SwiperSlide className='contenedorProdCarrousel'>{prod8}</SwiperSlide>
             </Swiper>
         </>
     );

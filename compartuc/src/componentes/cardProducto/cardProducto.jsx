@@ -10,7 +10,7 @@ export function CardProducto({ nombre, precio, descuento, imagen }) {
             <div className="seccionImagenProducto">
                 <img
                     src={imagen}
-                    alt="zapatilla imagen"
+                    alt=""
                     className='imagenProducto'
                 />
                 <h5 className='descuentoProducto px-3 shadow-4-strong'>- {descuento}%</h5>
@@ -28,7 +28,6 @@ export function CardProducto({ nombre, precio, descuento, imagen }) {
                         <MDBIcon fas icon="star" className='estrella' />
                         <MDBIcon fas icon="star" className='estrella' />
                         <MDBIcon fas icon="star" className='estrella' />
-                        {/* <h6>(10)</h6> */}
                     </div>
                 </div>
             </div>

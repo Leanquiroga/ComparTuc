@@ -1,0 +1,22 @@
+.contador {
+    font-size: 24px;
+    color: black;
+    display: flex;
+}
+
+.contadorDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.numeros{
+    font-size: xx-large;
+}
+
+.horasLetras{
+    font-size: 10px;
+}
+
+.dosP{
+    color: rgb(19, 161, 243);
+}
