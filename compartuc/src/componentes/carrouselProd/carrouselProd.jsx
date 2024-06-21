@@ -14,15 +14,19 @@ export function CarrouselProd({ prod1, prod2, prod3, prod4, prod5, prod6, prod7,
                 navigation={true}
                 breakpoints={{
                     '@0.00': {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    '@0.50': {
+                        slidesPerView: 1,
                         spaceBetween: 10,
                     },
                     '@0.75': {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                         spaceBetween: 10,
                     },
                     '@1.00': {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                         spaceBetween: 10,
                     },
                     '@1.50': {
