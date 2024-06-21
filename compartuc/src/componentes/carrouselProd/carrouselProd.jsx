@@ -35,7 +35,7 @@ export function CarrouselProd({ prod1, prod2, prod3, prod4, prod5, prod6, prod7,
                     },
                 }}
                 modules={[Navigation]}
-                className="mySwiper carrouselProd"
+                className="mySwiper carrouselProd p-3"
             >
                 <SwiperSlide className='contenedorProdCarrousel'>{prod1}</SwiperSlide>
                 <SwiperSlide className='contenedorProdCarrousel'>{prod3}</SwiperSlide>

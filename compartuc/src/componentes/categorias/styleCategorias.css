@@ -1,6 +1,5 @@
 .imagenCat {
     width: auto !important;
-    border: 1px cyan solid;
 }
 
 .tituloCat {
@@ -11,4 +10,15 @@
 .categoriasContenedor {
     display: flex;
     flex-direction: row;
+}
+
+.temporadaCard{
+    color: cyan;
+}
+
+.mesCard{
+    background-color: aliceblue;
+    border-radius: 50%;
+    max-width: min-content;
+    color: black;
 }
