@@ -6,9 +6,10 @@ import { Contador } from '../../componentes/contador/contador.jsx'
 import { CarrouselProd } from '../../componentes/carrouselProd/carrouselProd.jsx'
 import { Boton, BotonOutline, BotonRounded, BotonOutlineRounded } from '../../componentes/botones/botones.jsx'
 import { Footer } from '../../componentes/footer/footer.jsx'
+import { Rectangulo } from '../../componentes/rectangulo/rectangulo.jsx'
+import { Categorias } from '../../componentes/categorias/categorias.jsx'
 import './styleIndexPages.css'
-import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit'
-
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit'
 
 export function IndexPages() {
     return (
@@ -21,22 +22,40 @@ export function IndexPages() {
                 imagen3="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/SUPERNO_tcm217_834371_c674d1217b.jpg"
                 imagen4="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/ONSITE_LAM_FAST_REBORNMAIN_NAV_92f78fc501.jpg"
             />
-            <div className="d-flex justify-content-center mt-5">
-                <div className="col-10 mb-5">
+            <div className="d-flex justify-content-center contenedorCardsOfertas">
+                <div className="col-10 mb-4">
+                    <hr />
+                    <Rectangulo texto="hoy" />
                     <div className="contenedorContador mb-3">
                         <h3 className='tituloOferta me-5'><b>Ofertas Flash </b></h3>
                         <Contador />
                     </div>
                     <CarrouselProd
-                        prod1={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod2={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod3={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod4={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod5={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod6={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod7={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
-                        prod8={<CardProducto nombre="zapatillas NIKE" precio="100000" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
+                        prod1={<CardProducto nombre="Nike Why so Sad" precio="83920" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/files/nike-sb-dunk-low-pro-why-so-sad-dropout-1_947x947.jpg?v=1705072312" />}
+                        prod2={<CardProducto nombre="Nike Dunk Low" precio="274990" descuento="20" imagen="https://dropoutmilano.com/cdn/shop/products/nike-dunk-low-qs-co-jp-reverse-curry-2024-dropout-1_947x947.jpg?v=1709254425" />}
+                        prod3={<CardProducto nombre="Jordan 1 Retro High" precio="98000" descuento="50" imagen="https://dropoutmilano.com/cdn/shop/products/jordan-1-retro-high-og-black-white-dropout-1_947x947.jpg?v=1709254387" />}
+                        prod4={<CardProducto nombre="Nike dunk Low retro" precio="300000" descuento="30" imagen="https://dropoutmilano.com/cdn/shop/files/nike-dunk-low-retro-white-black-panda-2021-w-dropout-1_947x947.jpg?v=1709496059" />}
+                        prod5={<CardProducto nombre="Jordan 1 low Mocha" precio="239902" descuento="25" imagen="https://dropoutmilano.com/cdn/shop/products/jordan-1-low-mocha-gs-dropout-1_947x947.jpg?v=1709502514" />}
+                        prod6={<CardProducto nombre="Camiseta Argentina 86" precio="299999" descuento="10" imagen="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw97c411d5/products/LE_LTN0222154/LE_LTN0222154-1.JPG" />}
+                        prod7={<CardProducto nombre="Buzo Nike tech fleece" precio="120000" descuento="10" imagen="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwf856da1d/products/NIFB7916-010/NIFB7916-010-1.JPG" />}
+                        prod8={<CardProducto nombre="Nike Dunk Low Vintage" precio="40000" descuento="15" imagen="https://dropoutmilano.com/cdn/shop/products/nike-dunk-low-vintage-navy-women-s-dropout-1_947x947.jpg?v=1709502323" />}
                     />
+                </div>
+            </div>
+            <div className="col-12 mb-5 p-4 pt-0 text-center">
+                <MDBBtn size="lg" color='info'>
+                    Ver mas Ofertas
+                </MDBBtn>
+            </div>
+            <div className="d-flex justify-content-center">
+
+                <div className="col-10">
+                    <hr />
+                    <div className="contenedorCategorias mb-3">
+                        <Rectangulo texto="categorias" />
+                        <h3 className='tituloOferta me-5 mt-2'><b>Temporada</b></h3>
+                        <Categorias />
+                    </div>
                 </div>
             </div>
             <Footer />

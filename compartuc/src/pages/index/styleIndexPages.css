@@ -1,8 +1,18 @@
 .tituloOferta {
-    color: #16a8f1;
+    color: #535353;
 }
 
 .contenedorContador {
     display: flex;
     align-items: center;
+}
+
+
+.contenedorCardsOfertas{
+    margin-top: 70px !important;
+}
+
+hr{
+    color: #7d7d7d;
+    margin-bottom: 40px;
 }
