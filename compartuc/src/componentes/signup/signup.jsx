@@ -17,27 +17,28 @@ const CustomInput = ({ label, type, id }) => (
   <MDBInput wrapperClass='mb-4' label={label} id={id} type={type} />
 );
 
-function Signup() {
+export function Signup() {
   return (
     <MDBContainer fluid className='p-4'>
 
-      <MDBRow>
+      <MDBRow className="contenedorSingup">
 
-        <MDBCol md='6' className='text-center text-md-start d-flex flex-column justify-content-center'>
+
+        <MDBCol md='5' className='text-center text-md-start d-flex flex-column justify-content-center me-4'>
 
           <h1 className="my-5 display-3 fw-bold ls-tight px-3">
-          Las mejores ofertas<br />
+            Las mejores ofertas<br />
             <span className="text-custom-color" >para tus ahorros</span>
           </h1>
 
           <p className='px-3 text-muted'>
-          Descubre oportunidades increíbles para ahorrar dinero en tus compras diarias.
-          Con nuestro comparador, encontrarás las mejores ofertas adaptadas a tus necesidades y preferencias.
+            Descubre oportunidades increíbles para ahorrar dinero en tus compras diarias.
+            Con nuestro comparador, encontrarás las mejores ofertas adaptadas a tus necesidades y preferencias.
           </p>
 
         </MDBCol>
 
-        <MDBCol md='6'>
+        <MDBCol md='5'>
 
           <MDBCard className='my-5'>
             <MDBCardBody className='p-5'>
@@ -63,15 +64,15 @@ function Signup() {
                 <p>o registrate con:</p>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='facebook-f' size="sm"/>
+                  <MDBIcon fab icon='facebook-f' size="lg" />
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='twitter' size="sm"/>
+                  <MDBIcon fab icon='twitter' size="lg" />
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='google' size="sm"/>
+                  <MDBIcon fab icon='google' size="lg" />
                 </MDBBtn>
 
 
@@ -91,5 +92,3 @@ function Signup() {
     </MDBContainer>
   );
 }
-
-export default Signup;

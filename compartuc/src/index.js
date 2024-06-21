@@ -12,17 +12,21 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { CarrouselProd } from "./componentes/carrouselProd/carrouselProd.jsx";
 import { CardProducto } from './componentes/cardProducto/cardProducto.jsx';
-import Signup from './componentes/signup/signup.js';
-import Login from './componentes/login/login.js';
+import { Signup } from './componentes/signup/signup.jsx';
+import { Login } from './componentes/login/login.jsx';
 import { Footer } from './componentes/footer/footer.jsx'
 import { Navbar, NavbarContacto, NavbarNosotros, NavbarMiCuenta } from './componentes/navbar/navbar.jsx'
 import { Header } from './componentes/header/header.jsx'
 import { IndexPages } from './pages/index/indexPages.jsx';
+import { LoginPages } from './pages/login/loginPages.jsx';
+import { SignupPages } from './pages/signup/signupPages.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <IndexPages />
+    <SignupPages />
+    {/* <LoginPages /> */}
+    {/* <IndexPages /> */}
   </React.StrictMode>
 );
 

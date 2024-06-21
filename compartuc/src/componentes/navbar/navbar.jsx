@@ -41,17 +41,17 @@ export function Navbar() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Contacto
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Mi cuenta
+                    Inicio Sesion
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                  Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </div>
@@ -107,18 +107,18 @@ export function NavbarNosotros() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Contacto
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Mi cuenta
+                  Inicio Sesion
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                  Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </div>
@@ -147,7 +147,7 @@ export function NavbarNosotros() {
   );
 }
 
-export function NavbarContacto() {
+export function NavbarInicio() {
   const [openNav, setOpenNav] = useState(false);
 
   return (
@@ -174,18 +174,18 @@ export function NavbarContacto() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
-                  Contacto
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
+                  Inicio Sesion
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Mi cuenta
+                  Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </div>
@@ -214,7 +214,7 @@ export function NavbarContacto() {
   );
 }
 
-export function NavbarMiCuenta() {
+export function NavbarRegistrarse() {
   const [openNav, setOpenNav] = useState(false);
 
   return (
@@ -242,17 +242,17 @@ export function NavbarMiCuenta() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                  Contacto
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                Inicio Sesion
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
-                  Mi cuenta
+                  Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </div>

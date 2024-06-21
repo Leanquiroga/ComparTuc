@@ -14,3 +14,7 @@ body {
     color: #15b1e5;
 }
 
+.contenedorSingup{
+    display: flex;
+    justify-content: center;
+}

@@ -16,13 +16,13 @@ const CustomInput = ({ label, type, id }) => (
   <MDBInput wrapperClass='mb-4' label={label} id={id} type={type} />
 );
 
-function Login() {
+export function Login() {
   return (
     <MDBContainer fluid className='p-4'>
 
-      <MDBRow>
+      <MDBRow className='contenedorLogin'>
 
-      <MDBCol md='6' className='text-center text-md-start d-flex flex-column justify-content-center'>
+      <MDBCol md='5' className='text-center text-md-start d-flex flex-column justify-content-center me-4'>
 
         <h1 className="my-5 display-3 fw-bold ls-tight px-3">
           Las mejores ofertas<br />
@@ -36,7 +36,7 @@ function Login() {
       </MDBCol>
 
 
-        <MDBCol md='6'>
+        <MDBCol md='5'>
 
           <MDBCard className='my-5'>
             <MDBCardBody className='p-5'>
@@ -53,15 +53,15 @@ function Login() {
                 <p>o iniciar sesion con:</p>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='facebook-f' size="sm"/>
+                  <MDBIcon fab icon='facebook-f' size="lg"/>
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='twitter' size="sm"/>
+                  <MDBIcon fab icon='twitter' size="lg"/>
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='google' size="sm"/>
+                  <MDBIcon fab icon='google' size="lg"/>
                 </MDBBtn>
 
               </div>
@@ -77,4 +77,3 @@ function Login() {
   );
 }
 
-export default Login;
