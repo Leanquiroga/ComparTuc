@@ -1,5 +1,4 @@
   body {
-    background: #eee;
     margin: 0;
     padding: 0;
   }
@@ -12,9 +11,6 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +23,8 @@
     object-fit: cover;
   }
 
-  .carrouselProd {
-    height: 300px;
+
+  .contenedorProdCarrousel {
+    width: fit-content;
+    height: fit-content;
   }

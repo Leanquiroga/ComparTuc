@@ -1,0 +1,19 @@
+.rectangulo {
+    background-color: #15b1e5;
+    width: 20px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-bottom: 6px;
+    display: flex;
+}
+
+.textoRectangulo {
+    color: #15b1e5;
+    margin-top: 10px;
+}
+
+.contenedorRectangulo{
+    display: flex;
+    flex-direction:row ;
+}

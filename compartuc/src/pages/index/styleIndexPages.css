@@ -1,0 +1,22 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.tituloOferta {
+    color: hsl(217, 10%, 50.8%);
+}
+
+.contenedorContador {
+    display: flex;
+    align-items: center;
+}
+
+
+.contenedorCardsOfertas {
+    margin-top: 70px !important;
+}
+
+hr {
+    color: #949494;
+    margin-bottom: 40px;
+}

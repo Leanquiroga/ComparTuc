@@ -5,12 +5,11 @@ export function CardProducto({ nombre, precio, descuento, imagen }) {
     let precioConDescuento = 0;
     precioConDescuento = precio - (precio * descuento / 100);
     return (
-
         <div className="cardProducto shadow-4-strong">
             <div className="seccionImagenProducto">
                 <img
                     src={imagen}
-                    alt="zapatilla imagen"
+                    alt=""
                     className='imagenProducto'
                 />
                 <h5 className='descuentoProducto px-3 shadow-4-strong'>- {descuento}%</h5>
@@ -28,7 +27,35 @@ export function CardProducto({ nombre, precio, descuento, imagen }) {
                         <MDBIcon fas icon="star" className='estrella' />
                         <MDBIcon fas icon="star" className='estrella' />
                         <MDBIcon fas icon="star" className='estrella' />
-                        {/* <h6>(10)</h6> */}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export function CardProductoSinD({ nombre, precio, imagen }) {
+    return (
+        <div className="cardProducto shadow-4-strong">
+            <div className="seccionImagenProducto">
+                <img
+                    src={imagen}
+                    alt=""
+                    className='imagenProducto'
+                />
+            </div>
+            <div className='descripcionProducto'>
+                <h5 className='mt-3 text-dark'><b>{nombre}</b></h5>
+                <div className="precioEstrellas">
+                    <div className="seccionPrecio mt-2">
+                        <h4><b>${precio}</b></h4>
+                    </div>
+                    <div className="estrellasContenedor ms-5 mt-2">
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
+                        <MDBIcon fas icon="star" className='estrella' />
                     </div>
                 </div>
             </div>

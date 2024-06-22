@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+
+.tituloNosotros {
+    color: hsl(217, 10%, 50.8%);
+}
+
+.subtituloNosotros {
+    color: #15b1e5;
+}
+
+.parrafoNosotros{
+    color: hsl(215, 10%, 45%);
+    font-size: larger;
+}
+
+.imgNosotros{
+    width: 330px;
+}
+
+.contenedorPersona{
+    display: flex;
+    flex-direction: column;
+}

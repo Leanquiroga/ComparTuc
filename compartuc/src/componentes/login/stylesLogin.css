@@ -14,3 +14,7 @@ body {
     color: #15b1e5;
 }
 
+.contenedorLogin{
+    display: flex !important;
+    justify-content: center !important;
+}
