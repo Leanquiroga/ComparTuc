@@ -6,10 +6,10 @@ import { Header } from "../../componentes/header/header"
 export function LoginPages() {
     return (
         <>
-        <Header />
-        <NavbarInicio />
-        <Login></Login>
-        <Footer/>
+            <Header />
+            <NavbarInicio />
+            <Login></Login>
+            <Footer />
         </>
     )
 }

@@ -12,6 +12,8 @@ import {
   MDBIcon,
   MDBInput
 } from 'mdb-react-ui-kit';
+import { IndexPages } from '../../pages/index/indexPages';
+
 
 export function Navbar() {
   const [openNav, setOpenNav] = useState(false);
@@ -19,7 +21,7 @@ export function Navbar() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='../../pages/index/indexPages.jsx'>
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -38,7 +40,7 @@ export function Navbar() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
+                <MDBNavbarLink active aria-current='page' href='../../pages/index/indexPages.jsx' className="mx-4 textoNavbar borderBtn">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -91,7 +93,7 @@ export function NavbarNosotros() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href={IndexPages}>
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -110,7 +112,7 @@ export function NavbarNosotros() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='../../pages/index/indexPages.jsx' className="mx-4 textoNavbar">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>

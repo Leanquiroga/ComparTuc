@@ -1,7 +1,7 @@
-// src/index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
@@ -36,11 +36,18 @@ import { Error404Pages } from "./pages/errorPage/errorPage404.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NosotrosPages />
-    {/* <SignupPages /> */}
-    {/* <LoginPages /> */}
-    {/* <IndexPages /> */}
-    {/* {<Error404Pages />} */}
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route exact path="/" element={<IndexPages />} />
+          <Route exact path="*" element={<Error404Pages />} />
+          <Route exact path="/login" element={<LoginPages/>} />
+          <Route exact path="/signup" element={<SignupPages/>} />
+          <Route exact path="/nosotros" element={<NosotrosPages/>} />
+        </Routes>
+      </main>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
