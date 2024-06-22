@@ -42,8 +42,8 @@ export function IndexPages() {
                     />
                 </div>
             </div>
-            <div className="col-12 mb-5 p-4 pt-0 text-center">
-                <MDBBtn size="lg" color='info'>Ver mas Ofertas</MDBBtn>
+            <div className="col-12 mb-5 p-4 pt-0 text-center testboton">
+                <MDBBtn href="/error" className='mt-4' size='lg' style={{ backgroundColor: '#15b1e5' }}>Ver mas Ofertas</MDBBtn>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="col-10">
@@ -57,7 +57,7 @@ export function IndexPages() {
             </div>
 
 
-            <div className="d-flex justify-content-center mt-5 mb-5">
+            <div className="d-flex justify-content-center mb-4 mt-5">
                 <div className="col-10">
                     <hr />
                     <Rectangulo texto="Este mes" />
@@ -72,7 +72,11 @@ export function IndexPages() {
                         prod7={<CardProductoSinD nombre="Buzo Nike tech fleece" precio="120000" descuento="10" imagen="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwf856da1d/products/NIFB7916-010/NIFB7916-010-1.JPG" />}
                         prod8={<CardProductoSinD nombre="Nike Dunk Low Vintage" precio="40000" descuento="15" imagen="https://dropoutmilano.com/cdn/shop/products/nike-dunk-low-vintage-navy-women-s-dropout-1_947x947.jpg?v=1709502323" />}
                     />
+
                 </div>
+            </div>
+            <div className="col-12 mb-5 text-center testboton">
+                <MDBBtn href="/error" className='mt-4' size='lg' style={{ backgroundColor: '#15b1e5' }}>Ver mas Productos</MDBBtn>
             </div>
 
             <video src={require("../../images/video.mp4")} autoplay loop className='w-100 mb-5' muted alt="..."></video>

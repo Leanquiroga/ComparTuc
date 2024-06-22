@@ -21,7 +21,7 @@ export function Navbar() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='../../pages/index/indexPages.jsx'>
+        <MDBNavbarBrand href='/'>
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -40,22 +40,22 @@ export function Navbar() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='../../pages/index/indexPages.jsx' className="mx-4 textoNavbar borderBtn">
+                <MDBNavbarLink active aria-current='page' href='/' className="mx-4 textoNavbar borderBtn">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/nosotros' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/login' className="mx-4 textoNavbar">
                   Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/signup' className="mx-4 textoNavbar">
                   Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -70,12 +70,12 @@ export function Navbar() {
                 </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon far icon="heart mt-3 ms-3" size="lg" />
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon fas icon="shopping-cart mt-3 ms-3" size='lg' />
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -93,7 +93,7 @@ export function NavbarNosotros() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href={IndexPages}>
+        <MDBNavbarBrand href="/">
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -112,22 +112,22 @@ export function NavbarNosotros() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='../../pages/index/indexPages.jsx' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/' className="mx-4 textoNavbar">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
+                <MDBNavbarLink active aria-current='page' href='/nosotros' className="mx-4 textoNavbar borderBtn">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/login' className="mx-4 textoNavbar">
                   Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/signup' className="mx-4 textoNavbar">
                   Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -142,12 +142,12 @@ export function NavbarNosotros() {
                 </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon far icon="heart mt-3 ms-3" size="lg" />
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon fas icon="shopping-cart mt-3 ms-3" size='lg' />
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -165,7 +165,7 @@ export function NavbarInicio() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='/'>
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -184,22 +184,22 @@ export function NavbarInicio() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/' className="mx-4 textoNavbar">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/nosotros' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
+                <MDBNavbarLink active aria-current='page' href='/login' className="mx-4 textoNavbar borderBtn">
                   Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/signup' className="mx-4 textoNavbar">
                   Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -214,12 +214,12 @@ export function NavbarInicio() {
                 </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon far icon="heart mt-3 ms-3" size="lg" />
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon fas icon="shopping-cart mt-3 ms-3" size='lg' />
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -237,7 +237,7 @@ export function NavbarRegistrarse() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='/'>
           <div className='d-flex mx-5'>
             <h2 className='navbartitulo ms-3'>Compar</h2>
             <h2 className='navbartitulo2'>Tuc</h2>
@@ -256,22 +256,22 @@ export function NavbarRegistrarse() {
           <MDBNavbarNav>
             <div className="seccionNavegacion">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/' className="mx-4 textoNavbar">
                   Inicio
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/nosotros' className="mx-4 textoNavbar">
                   Nosotros
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
+                <MDBNavbarLink active aria-current='page' href='/login' className="mx-4 textoNavbar">
                   Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar borderBtn">
+                <MDBNavbarLink active aria-current='page' href='/signup' className="mx-4 textoNavbar borderBtn">
                   Registrarse
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -286,12 +286,12 @@ export function NavbarRegistrarse() {
                 </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon far icon="heart mt-3 ms-3" size="lg" />
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current='page' href='#'>
+                <MDBNavbarLink active aria-current='page' href='/error'>
                   <MDBIcon fas icon="shopping-cart mt-3 ms-3" size='lg' />
                 </MDBNavbarLink>
               </MDBNavbarItem>

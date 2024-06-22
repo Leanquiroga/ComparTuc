@@ -41,12 +41,11 @@ root.render(
         <Routes>
           <Route exact path="/" element={<IndexPages />} />
           <Route exact path="*" element={<Error404Pages />} />
-          <Route exact path="/login" element={<LoginPages/>} />
-          <Route exact path="/signup" element={<SignupPages/>} />
-          <Route exact path="/nosotros" element={<NosotrosPages/>} />
+          <Route exact path="/login" element={<LoginPages />} />
+          <Route exact path="/signup" element={<SignupPages />} />
+          <Route exact path="/nosotros" element={<NosotrosPages />} />
         </Routes>
       </main>
-      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

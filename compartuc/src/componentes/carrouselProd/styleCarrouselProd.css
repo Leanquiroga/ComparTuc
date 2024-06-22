@@ -28,3 +28,7 @@
     width: fit-content;
     height: fit-content;
   }
+
+  .swiper-wrapper{
+    height: 280px !important;
+  }
