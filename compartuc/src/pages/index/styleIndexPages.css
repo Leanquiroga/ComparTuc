@@ -1,5 +1,9 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
 .tituloOferta {
-    color: #535353;
+    color: hsl(217, 10%, 50.8%);
 }
 
 .contenedorContador {
@@ -8,11 +12,11 @@
 }
 
 
-.contenedorCardsOfertas{
+.contenedorCardsOfertas {
     margin-top: 70px !important;
 }
 
-hr{
+hr {
     color: #7d7d7d;
     margin-bottom: 40px;
 }

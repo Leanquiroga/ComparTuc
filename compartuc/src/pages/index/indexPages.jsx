@@ -50,7 +50,7 @@ export function IndexPages() {
                     <hr />
                     <div className="contenedorCategorias mb-3">
                         <Rectangulo texto="categorias" />
-                        <h3 className='tituloOferta me-5 mt-2'><b>Temporada</b></h3>
+                        <h3 className='tituloOferta me-5 mt-2 mb-4'><b>Temporada</b></h3>
                         <Categorias />
                     </div>
                 </div>

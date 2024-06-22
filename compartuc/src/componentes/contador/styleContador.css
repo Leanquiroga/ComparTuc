@@ -11,10 +11,12 @@
 
 .numeros{
     font-size: xx-large;
+    color: hsl(0, 0%, 36%);
 }
 
 .horasLetras{
     font-size: 10px;
+    color: rgb(126, 126, 126);
 }
 
 .dosP{

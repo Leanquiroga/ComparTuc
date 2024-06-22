@@ -25,8 +25,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <SignupPages /> */}
-    <LoginPages />
-    {/* <IndexPages /> */}
+    {/* <LoginPages /> */}
+    <IndexPages />
   </React.StrictMode>
 );
 
