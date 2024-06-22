@@ -22,18 +22,18 @@ export function Login() {
 
       <MDBRow className='contenedorLogin'>
 
-      <MDBCol md='5' className='text-center text-md-start d-flex flex-column justify-content-center me-4'>
+        <MDBCol md='5' className='text-center text-md-start d-flex flex-column justify-content-center me-4'>
 
-        <h1 className="my-5 display-3 fw-bold ls-tight px-3">
-          Las mejores ofertas<br />
+          <h1 className="my-5 display-3 fw-bold ls-tight px-3">
+            Las mejores ofertas<br />
             <span className="text-custom-color" >para tus ahorros</span>
-        </h1>
+          </h1>
 
           <p className='px-3 text-muted'>
             Descubre oportunidades increíbles para ahorrar dinero en tus compras diarias.
             Con nuestro comparador, encontrarás las mejores ofertas adaptadas a tus necesidades y preferencias.
           </p>
-      </MDBCol>
+        </MDBCol>
 
 
         <MDBCol md='5'>
@@ -44,7 +44,7 @@ export function Login() {
               <CustomInput label='Email' id='formEmail' type='email' />
               <CustomInput label='Contraseña' id='formPassword' type='password' />
 
-              
+
 
               <MDBBtn className='w-100 mb-4' size='md' style={{ backgroundColor: '#15b1e5' }} >Iniciar sesion</MDBBtn>
 
@@ -53,15 +53,15 @@ export function Login() {
                 <p>o iniciar sesion con:</p>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='facebook-f' size="lg"/>
+                  <MDBIcon fab icon='facebook-f' size="lg" />
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='twitter' size="lg"/>
+                  <MDBIcon fab icon='twitter' size="lg" />
                 </MDBBtn>
 
                 <MDBBtn tag='a' color='none' className='mx-3 social-btn'>
-                  <MDBIcon fab icon='google' size="lg"/>
+                  <MDBIcon fab icon='google' size="lg" />
                 </MDBBtn>
 
               </div>

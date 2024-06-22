@@ -20,13 +20,15 @@ import { Header } from './componentes/header/header.jsx'
 import { IndexPages } from './pages/index/indexPages.jsx';
 import { LoginPages } from './pages/login/loginPages.jsx';
 import { SignupPages } from './pages/signup/signupPages.jsx';
+import { NosotrosPages } from './pages/nosotros/nosotrosPages.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NosotrosPages />
     {/* <SignupPages /> */}
     {/* <LoginPages /> */}
-    <IndexPages />
+    {/* <IndexPages /> */}
   </React.StrictMode>
 );
 
