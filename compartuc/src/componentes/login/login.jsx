@@ -46,7 +46,7 @@ export function Login() {
 
 
 
-              <MDBBtn className='w-100 mb-4' size='md' style={{ backgroundColor: '#15b1e5' }} >Iniciar sesion</MDBBtn>
+              <MDBBtn className='w-100 mb-4' href='/error' size='md' style={{ backgroundColor: '#15b1e5' }} >Iniciar sesion</MDBBtn>
 
               <div className="text-center">
 

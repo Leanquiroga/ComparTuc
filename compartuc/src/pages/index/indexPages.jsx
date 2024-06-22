@@ -79,7 +79,7 @@ export function IndexPages() {
                 <MDBBtn href="/error" className='mt-4' size='lg' style={{ backgroundColor: '#15b1e5' }}>Ver mas Productos</MDBBtn>
             </div>
 
-            <video src={require("../../images/video.mp4")} autoplay loop className='w-100 mb-5' muted alt="..."></video>
+            <video src={require("../../images/video.mp4")} autoPlay loop className='w-100 mb-5' muted alt="..."></video>
             <Footer />
         </>
     )

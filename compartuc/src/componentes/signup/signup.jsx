@@ -56,7 +56,7 @@ export function Signup() {
               <CustomInput label='Email' id='formEmail' type='email' />
               <CustomInput label='Contraseña' id='formPassword' type='password' />
 
-              <MDBBtn className='w-100 mb-4' size='md' style={{ backgroundColor: '#15b1e5' }}>Registrate</MDBBtn>
+              <MDBBtn className='w-100 mb-4' href='/error'  size='md' style={{ backgroundColor: '#15b1e5' }}>Registrate</MDBBtn>
 
 
               <div className="text-center">
@@ -76,7 +76,7 @@ export function Signup() {
                 </MDBBtn>
 
 
-                <MDBTypography tag='p'>¿Ya tienes una cuenta? <MDBBtn color='none' tag='a' href='#'>Iniciar sesion</MDBBtn></MDBTypography>
+                <MDBTypography tag='p'>¿Ya tienes una cuenta? <MDBBtn color='none' tag='a' href='/login'>Iniciar sesion</MDBBtn></MDBTypography>
 
 
               </div>
