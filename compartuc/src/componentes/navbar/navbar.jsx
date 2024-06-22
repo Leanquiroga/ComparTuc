@@ -20,7 +20,10 @@ export function Navbar() {
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
-          <img src={require("../../images/icono.jpg")} alt="" className='iconoLogo' />
+          <div className='d-flex mx-5'>
+            <h2 className='navbartitulo ms-3'>Compar</h2>
+            <h2 className='navbartitulo2'>Tuc</h2>
+          </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
@@ -46,7 +49,7 @@ export function Navbar() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                    Inicio Sesion
+                  Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
@@ -58,9 +61,11 @@ export function Navbar() {
 
             <div className="seccionInput">
               <MDBNavbarItem>
-                <MDBInput label="Busca Productos" contrast labelStyle={{ color: 'grey' }} type="text" className='textoInputNavbar pe-5 mt-1'>
-                  <i className="fas fa-magnifying-glass trailing px-2"></i>
-                </MDBInput>
+                <MDBNavbarItem>
+                  <MDBNavbarLink active aria-current='page' href='#'>
+                    <MDBIcon fas icon="search mt-3 ms-3" size="lg" />
+                  </MDBNavbarLink>
+                </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#'>
@@ -87,7 +92,10 @@ export function NavbarNosotros() {
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
-          <img src={require("../../images/icono.jpg")} alt="" className='iconoLogo' />
+          <div className='d-flex mx-5'>
+            <h2 className='navbartitulo ms-3'>Compar</h2>
+            <h2 className='navbartitulo2'>Tuc</h2>
+          </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
@@ -125,9 +133,11 @@ export function NavbarNosotros() {
 
             <div className="seccionInput">
               <MDBNavbarItem>
-                <MDBInput label="Busca Productos" contrast labelStyle={{ color: 'grey' }} type="text" className='textoInputNavbar pe-5 mt-1'>
-                  <i className="fas fa-magnifying-glass trailing px-2"></i>
-                </MDBInput>
+                <MDBNavbarItem>
+                  <MDBNavbarLink active aria-current='page' href='#'>
+                    <MDBIcon fas icon="search mt-3 ms-3" size="lg" />
+                  </MDBNavbarLink>
+                </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#'>
@@ -154,7 +164,10 @@ export function NavbarInicio() {
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
-          <img src={require("../../images/icono.jpg")} alt="" className='iconoLogo' />
+          <div className='d-flex mx-5'>
+            <h2 className='navbartitulo ms-3'>Compar</h2>
+            <h2 className='navbartitulo2'>Tuc</h2>
+          </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
@@ -192,9 +205,11 @@ export function NavbarInicio() {
 
             <div className="seccionInput">
               <MDBNavbarItem>
-                <MDBInput label="Busca Productos" contrast labelStyle={{ color: 'grey' }} type="text" className='textoInputNavbar pe-5 mt-1'>
-                  <i className="fas fa-magnifying-glass trailing px-2"></i>
-                </MDBInput>
+                <MDBNavbarItem>
+                  <MDBNavbarLink active aria-current='page' href='#'>
+                    <MDBIcon fas icon="search mt-3 ms-3" size="lg" />
+                  </MDBNavbarLink>
+                </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#'>
@@ -221,7 +236,10 @@ export function NavbarRegistrarse() {
     <MDBNavbar expand='lg' light bgColor='light' className='shadow-0 navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
-          <img src={require("../../images/icono.jpg")} alt="" className='iconoLogo' />
+          <div className='d-flex mx-5'>
+            <h2 className='navbartitulo ms-3'>Compar</h2>
+            <h2 className='navbartitulo2'>Tuc</h2>
+          </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
@@ -247,7 +265,7 @@ export function NavbarRegistrarse() {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#' className="mx-4 textoNavbar">
-                Inicio Sesion
+                  Inicio Sesion
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
@@ -259,9 +277,11 @@ export function NavbarRegistrarse() {
 
             <div className="seccionInput">
               <MDBNavbarItem>
-                <MDBInput label="Busca Productos" contrast labelStyle={{ color: 'grey' }} type="text" className='textoInputNavbar pe-5 mt-1'>
-                  <i className="fas fa-magnifying-glass trailing px-2"></i>
-                </MDBInput>
+                <MDBNavbarItem>
+                  <MDBNavbarLink active aria-current='page' href='#'>
+                    <MDBIcon fas icon="search mt-3 ms-3" size="lg" />
+                  </MDBNavbarLink>
+                </MDBNavbarItem>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#'>

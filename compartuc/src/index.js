@@ -36,10 +36,11 @@ import { Error404Pages } from "./pages/errorPage/errorPage404.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <NosotrosPages />
     {/* <SignupPages /> */}
     {/* <LoginPages /> */}
     {/* <IndexPages /> */}
-    {<Error404Pages />}
+    {/* {<Error404Pages />} */}
   </React.StrictMode>
 );
 

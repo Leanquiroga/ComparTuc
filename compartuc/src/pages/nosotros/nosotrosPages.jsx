@@ -2,6 +2,7 @@ import './styleNosotrosPages.css'
 import { NavbarNosotros } from '../../componentes/navbar/navbar'
 import { Footer } from '../../componentes/footer/footer'
 import { Rectangulo } from '../../componentes/rectangulo/rectangulo'
+import { Header } from '../../componentes/header/header'
 import {
     MDBRow,
     MDBCol,
@@ -12,6 +13,7 @@ import {
 export function NosotrosPages() {
     return (
         <>
+        <Header/>
             <NavbarNosotros />
             <MDBContainer>
                 <MDBRow className="contenedorNosotros d-flex justify-content-center mt-5 mb-5">
