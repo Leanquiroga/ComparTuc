@@ -15,7 +15,7 @@ export function CardProducto({ nombre, precio, descuento, imagen }) {
                 <h5 className='descuentoProducto px-3 shadow-4-strong'>- {descuento}%</h5>
             </div>
             <div className='descripcionProducto'>
-                <h5 className='mt-3 text-dark'><b>{nombre}</b></h5>
+                <h5 className='mt-3 text-grey'>{nombre}</h5>
                 <div className="precioEstrellas">
                     <div className="seccionPrecio mt-2">
                         <h5><del>${precio}</del></h5>
@@ -45,7 +45,7 @@ export function CardProductoSinD({ nombre, precio, imagen }) {
                 />
             </div>
             <div className='descripcionProducto'>
-                <h5 className='mt-3 text-dark'><b>{nombre}</b></h5>
+                <h5 className='mt-3 text-grey'>{nombre}</h5>
                 <div className="precioEstrellas">
                     <div className="seccionPrecio mt-2">
                         <h4><b>${precio}</b></h4>

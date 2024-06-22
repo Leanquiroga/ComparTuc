@@ -1,5 +1,13 @@
+body {
+  background-color: hsl(0, 0%, 96%);
+}
+
 .centered-container {
   margin: auto;
   padding: 20px;
   max-width: 600px;
+}
+
+.textoerror{
+  color: #15b1e5;
 }
