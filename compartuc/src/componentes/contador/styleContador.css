@@ -1,0 +1,44 @@
+.contador {
+    font-size: 24px;
+    color: black;
+    display: flex;
+}
+
+.contadorDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.numeros{
+    font-size: xx-large;
+    color: hsl(0, 0%, 36%);
+}
+
+.horasLetras{
+    font-size: 10px;
+    color: rgb(126, 126, 126);
+}
+
+.dosP{
+    color: rgb(19, 161, 243);
+}
+
+@media screen and (max-width : 500px) {
+    .contador {
+        width: 400px !important;
+    }
+}
+
+
+@media screen and (max-width : 400px) {
+    .contador {
+        width: 300px !important;
+    }
+}
+
+
+@media screen and (max-width : 350px) {
+    .contador {
+        width: 290px !important;
+    }
+}

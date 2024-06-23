@@ -1,0 +1,41 @@
+.footer {
+    background-color:hsl(225, 6%, 14%);
+    color: white;
+    padding: 20px;
+}
+
+.textoFooterCol {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+
+.textoInput {
+    color: white;
+}
+
+.textoInput:focus {
+    color: white;
+}
+
+.textoFooterCol:hover {
+    color: rgb(135, 203, 203);
+}
+
+.contenedorColFooter li {
+    padding-top: 10px;
+}
+
+.tituloCol {
+    color: rgb(223, 223, 223);
+}
+
+hr{
+    color: #8a8b8b;
+}
+.contenedorFooter {
+    display: flex !important;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 6%;
+    color: rgb(100, 100, 100);
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.tituloNosotros {
+    color: hsl(217, 10%, 50.8%);
+}
+
+.subtituloNosotros {
+    color: #15b1e5;
+}
+
+.parrafoNosotros{
+    color: hsl(215, 10%, 45%);
+    font-size: larger;
+}
+
+.imgNosotros{
+    width: 330px;
+}
+
+.contenedorPersona{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width : 500px) {
+    .iframeNosotros {
+        width: 340px !important;
+    }
+}
+
+
+@media screen and (max-width : 380px) {
+    .iframeNosotros {
+        width: 300px !important;
+    }
+}
