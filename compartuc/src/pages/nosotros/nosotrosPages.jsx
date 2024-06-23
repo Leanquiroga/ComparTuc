@@ -41,7 +41,7 @@ export function NosotrosPages() {
                             , Nuestro telefono es +381-574-4224 tambien podes seguirnos en nuestras redes sociales, Instagram: @ComparTuc facebook: CompartucOk</p>
                     </MDBCol>
                     <MDBCol md='5'>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.576344364558!2d-65.2178099247317!3d-26.821615176701528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c4067b7acbf%3A0x46260af51811cfc3!2sSantiago%20del%20Estero%201304%2C%20T4000DWD%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1719030683360!5m2!1ses-419!2sar" width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='shadow-5-strong mb-5'></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.576344364558!2d-65.2178099247317!3d-26.821615176701528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c4067b7acbf%3A0x46260af51811cfc3!2sSantiago%20del%20Estero%201304%2C%20T4000DWD%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1719030683360!5m2!1ses-419!2sar" width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='shadow-5-strong mb-5 iframeNosotros'></iframe>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>

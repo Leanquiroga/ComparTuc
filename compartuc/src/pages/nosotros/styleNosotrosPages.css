@@ -27,3 +27,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+@media screen and (max-width : 500px) {
+    .iframeNosotros {
+        width: 340px !important;
+    }
+}
+
+
+@media screen and (max-width : 380px) {
+    .iframeNosotros {
+        width: 300px !important;
+    }
+}

@@ -24,6 +24,17 @@ hr {
     margin-bottom: 40px;
 }
 
-.testboton{
+.testboton {
     margin-top: 130px !important;
+}
+
+.tituloBe {
+    color: hsl(0, 0%, 0%);
+    font-size: 50px;
+    margin-top: 50px !important;
+}
+
+.tituloBe2 {
+    color: #15b1e5;
+    font-size: 50px;
 }

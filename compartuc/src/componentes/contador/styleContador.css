@@ -22,3 +22,23 @@
 .dosP{
     color: rgb(19, 161, 243);
 }
+
+@media screen and (max-width : 500px) {
+    .contador {
+        width: 400px !important;
+    }
+}
+
+
+@media screen and (max-width : 400px) {
+    .contador {
+        width: 300px !important;
+    }
+}
+
+
+@media screen and (max-width : 350px) {
+    .contador {
+        width: 290px !important;
+    }
+}

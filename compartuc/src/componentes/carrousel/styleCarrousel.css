@@ -20,3 +20,10 @@
 #carrouselMain .swiper-wrapper {
   height: 600px !important;
 }
+
+
+@media screen and (max-width : 500px) {
+  #carrouselMain .swiper-wrapper {
+    height: 300px !important;
+  }
+}

@@ -12,13 +12,26 @@
     flex-direction: row;
 }
 
-.temporadaCard{
+.temporadaCard {
     color: cyan;
 }
 
-.mesCard{
+.mesCard {
     background-color: aliceblue;
     border-radius: 50%;
     max-width: min-content;
     color: black;
+}
+
+
+@media screen and (max-width : 500px) {
+    .cardImangeContenedor {
+        width: 350px !important;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    .cardImangeContenedor {
+        width: 300px !important;
+    }
 }
