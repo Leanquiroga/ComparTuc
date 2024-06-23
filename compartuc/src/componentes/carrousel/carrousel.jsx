@@ -18,6 +18,7 @@ export function Carrousel({ imagen1, imagen2, imagen3, imagen4 }) {
                   }}
                 modules={[Scrollbar, Autoplay]}
                 className="mySwiper carrousel"
+                id='carrouselMain'
             >
                 <SwiperSlide>
                     <img src={imagen1} alt="imagencarrousel" />

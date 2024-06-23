@@ -16,3 +16,7 @@
   display: block;
   object-fit: cover;
 }
+
+#carrouselMain .swiper-wrapper {
+  height: 600px !important;
+}

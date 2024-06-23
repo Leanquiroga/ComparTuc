@@ -8,6 +8,7 @@ import { Boton, BotonOutline, BotonRounded, BotonOutlineRounded } from '../../co
 import { Footer } from '../../componentes/footer/footer.jsx'
 import { Rectangulo } from '../../componentes/rectangulo/rectangulo.jsx'
 import { Categorias } from '../../componentes/categorias/categorias.jsx'
+import { Suscribite } from '../../componentes/suscribite/suscribite.jsx'
 import './styleIndexPages.css'
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit'
 
@@ -79,7 +80,8 @@ export function IndexPages() {
                 <MDBBtn href="/error" className='mt-4' size='lg' style={{ backgroundColor: '#15b1e5' }}>Ver mas Productos</MDBBtn>
             </div>
 
-            <video src={require("../../images/video.mp4")} autoPlay loop className='w-100 mb-5' muted alt="..."></video>
+            <video src={require("../../images/video.mp4")} autoPlay loop className='w-100' muted alt="..."></video>
+            <Suscribite></Suscribite>
             <Footer />
         </>
     )
